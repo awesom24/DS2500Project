@@ -10,4 +10,5 @@ To start our project, we obtained our data from basketball reference [1], a webs
 ### Steps
 The first steps were to do exploratory data analysis on the dataset, and look for patterns between different variables. Shown below is a heatmap we used to analyze the relationship between stats. ![Screenshot 2023-11-21 at 4 07 17 PM](https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/ddab7ff2-adcb-4bfe-b2ee-f7f3073ac5c5)
 After this, we had to decide which stats to use in our metric, and assign a weight for each one. For our first metric, we wanted to use percentages, and find a statistic of the players who are the most efficient. After making the calculations, we made it so the average player in the dataset had a 0.0 WAR, and plotted the distribution
+
 ![Screenshot 2023-11-21 at 4 33 50 PM](https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/0bed26a9-4122-4dd6-8d3f-60dad7ffd142)
