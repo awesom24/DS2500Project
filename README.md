@@ -21,15 +21,16 @@ After this, we had to decide which stats to use in our metric, and assign a weig
 
 <img width="593" alt="Screenshot 2023-11-22 at 11 05 15 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/56ed5e95-a991-479c-8f2b-d5882971aa56">
 
-Compared to when the analysis was originally done on the 2021 season, there are not as many outliers, and the graph is more condensed. When we created the efficiency WAR metric, we then wanted to plot it compared to other variables to see the relationships. From this graph shown below, we can see that there is a bigger range of outcomes with the younger players, while the veterans are more consistent.
-
 ### Analysis
-A second graph that we thought was important was plotting Efficiency WAR by team, and there were some interesting results. The NBA champion Nuggets were 2nd in WAR, and all of the top 6 teams made the playoffs. 3 of the 4 worst teams by record, the Hornets, Rockets, and Spurs, were in the bottom 4 in WAR as well. Our WAR metric possibly valued offense too much, as two teams with good offense but a bad defense and record (Pacers and Wizards) were top 10 in WAR. On the other end, two playoff teams that were great defensively, the Knicks and Heat, got bad ratings from our WAR metric. 
+
+Compared to when the analysis was originally done on the 2021 season, there are not as many outliers, and the graph is more condensed. When we created the efficiency WAR metric, we then wanted to plot it compared to other variables (Age, Field Goal Attempts) to see the relationships. From this graph shown below, we can see that there is a bigger range of outcomes with the younger players, while the veterans are more consistent.
+
+A second graph that we thought was important was plotting Efficiency WAR by team, and there were some interesting results. The NBA champion Nuggets were 2nd in WAR, and all of the top 6 teams made the playoffs. 3 of the 4 worst teams by record, the Hornets, Rockets, and Spurs, were in the bottom 4 in WAR as well. Our WAR metric possibly valued offense heavily, as two teams with good offense but a bad defense and record (Pacers and Wizards) were top 10 in WAR. On the other end, two playoff teams that were great defensively, the Knicks and Heat, got bad ratings from our WAR metric. 
 
 <img width="587" alt="Screenshot 2023-11-22 at 11 41 43 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/8f0e7c00-7546-4afb-aab4-7a84e65d3a5a">
 <img width="978" alt="Screenshot 2023-11-22 at 11 42 31 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/4491e1be-9b8c-4a36-9c17-abb0b9df0bd3">
 
-The other metric we created to measure players is Volume WAR, which values totals and scoring. Some players were high on the efficiency WAR metrics but play less minutes and in garbage time so at times it does not accurately rate a player. As shown in the graph below, Volume WAR has a positive relationship with Field Goal Attempts, with some centers being outliers.
+The other metric we created to measure players is Volume WAR, which values totals and scoring. Some players were high on the efficiency WAR metrics but play less minutes and in garbage time (4th quarters of blowouts, so the game is already decided) so at times it does not accurately rate a player. As shown in the graph below, Volume WAR has a positive relationship with Field Goal Attempts, with some centers being outliers.
 
 <img width="695" alt="Screenshot 2023-11-22 at 11 07 51 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/a6ddb1f5-544b-4dab-836e-89c26058b990">
 
