@@ -12,7 +12,6 @@ The first steps were to do exploratory data analysis on the dataset, and look fo
 After this, we had to decide which stats to use in our metric, and assign a weight for each one. For our first metric, we wanted to use percentages, and find a statistic of the players who are the most efficient. After making the calculations, we made it so the average player in the dataset had a 0.0 WAR, and plotted the distribution
 
 <img width="593" alt="Screenshot 2023-11-22 at 11 05 15 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/56ed5e95-a991-479c-8f2b-d5882971aa56">
-ets/11672096/0bed26a9-4122-4dd6-8d3f-60dad7ffd142)
 
 Compared to when the analysis was originally done on the 2021 season, there are not as many outliers, and the graph is more condensed. When we created the efficiency WAR metric, we then wanted to plot it compared to other variables to see the relationships. From this graph shown below, we can see that there is a bigger range of outcomes with the younger players, while the veterans are more consistent.
 
@@ -25,4 +24,9 @@ A second graph that we thought was important was plotting Efficiency WAR by team
 The other metric we created to measure players is Volume WAR, which values totals and scoring. Some players were high on the efficiency WAR metrics but play less minutes and in garbage time so at times it does not accurately rate a player. As shown in the graph below, Volume WAR has a positive relationship with Field Goal Attempts, with some centers being outliers.
 
 <img width="695" alt="Screenshot 2023-11-22 at 11 07 51 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/a6ddb1f5-544b-4dab-836e-89c26058b990">
+
+### Conclusion and Next Steps
+Through creating new and improved WAR metrics and applying them to the sport of basketball, we think teams can significantly increase their odds of winning a championship by drawing insights from this project. Our Efficiency WAR calculates which players win the most games for their team based on their efficiency. Our Volume WAR filters out the pool of players who only have efficient statistics because of the role they play on their team and upgrades those who put up high numbers, regardless of efficiency. NBA teams can use our algorithms to address their needs, by identifying  and acquiring players whose contracts fit their budgets and who will help them secure more wins. Teams should also give their current players with higher efficiency WAR’s more playing time. Taking these actions has the potential to vault a team up the standings and make them a legitimate annual contender to win the NBA Championship.
+
+The next steps for this project would be to look at more seasons of data and readjust our weights based on those statistics. Our metric would become more consistent and useful if we incorporated more seasons. Another step we can take is to use our metric to try to predict what will happen in future seasons. 
 
