@@ -16,6 +16,8 @@ After this, we had to decide which stats to use in our metric, and assign a weig
 Compared to when the analysis was originally done on the 2021 season, there are not as many outliers, and the graph is more condensed. When we created the efficiency WAR metric, we then wanted to plot it compared to other variables to see the relationships. From this graph shown below, we can see that there is a bigger range of outcomes with the younger players, while the veterans are more consistent.
 
 A second graph that we thought was important was plotting Efficiency WAR by team, and there were some interesting results. The NBA champion Nuggets were 2nd in WAR, and all of the top 6 teams made the playoffs. 3 of the 4 worst teams by record, the Hornets, Pistons, and Spurs, were bottom 3 in WAR as well. Our WAR metric possibly valued offense too much, as two teams with good offense but a bad defense and record (Jazz and Wizards) were top 10 in WAR. On the other end, two playoff teams that were great defensively, the Cavs and Heat, got bad ratings from our WAR metric. 
+
+
 <img width="572" alt="Screenshot 2023-11-22 at 10 45 14 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/5ebdf067-3498-405e-96ad-1331e7241bb7">
 <img width="976" alt="Screenshot 2023-11-22 at 10 51 59 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/004094dc-9208-4a2b-8d2a-60b31eed0e47">
 
