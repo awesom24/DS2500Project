@@ -10,6 +10,7 @@ In basketball, the goal of a team is to win games. As analytics have evolved, da
 
 ### Data Sources 
 To start our project, we obtained our data from basketball reference [1], a website that tracks individual and team data in the NBA and has a wide variety of stats, both basic and advanced, to view. We then transferred the data we planned to use into .csv files and used these as the basis for our project. Using pandas in Python, we combined multiple csv files, with basic stats, advanced stats, and salary into one dataframe. Shown below is our dataframe, with key statistics for each player
+
 ![Screenshot 2023-11-21 at 3 48 52 PM](https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/97534ebc-b8f5-4bd2-bd77-6ddeee5baf37)
 
 ### Steps
