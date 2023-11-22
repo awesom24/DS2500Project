@@ -9,7 +9,7 @@ In basketball, the goal of a team is to win games. As analytics have evolved, da
   However, the translation to the basketball world has not exactly happened. There are a few different WAR metrics, but they are very volume based, meaning the league’s stars who take a lot of shots per game will be at the top of the list, and their efficiency is not heavily factored. Tying back to the first paragraph, we wanted to create our own Wins Above Replacement metric incorporating efficiency, with the goal of trying to optimize a team’s assets/salary cap to create the best team they possibly can. After creating Efficiency WAR, we decided to model a Volume WAR that used popular NBA counting stats as opposed to efficiency. 
 
 ### Data Sources 
-To start our project, we obtained our data from basketball reference [1], a website that tracks individual and team data in the NBA and has a wide variety of stats, both basic and advanced, to view. We then transferred the data we planned to use into .csv files and used these as the basis for our project. Using pandas, we combined multiple csv files, with basic stats, advanced stats, and salary into one dataframe.
+To start our project, we obtained our data from basketball reference [1], a website that tracks individual and team data in the NBA and has a wide variety of stats, both basic and advanced, to view. We then transferred the data we planned to use into .csv files and used these as the basis for our project. Using pandas in Python, we combined multiple csv files, with basic stats, advanced stats, and salary into one dataframe.
 ![Screenshot 2023-11-21 at 3 48 52 PM](https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/97534ebc-b8f5-4bd2-bd77-6ddeee5baf37)
 
 ### Steps
