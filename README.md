@@ -13,14 +13,17 @@ To start our project, we obtained our data from basketball reference [1], a webs
 
 ![Screenshot 2023-11-21 at 3 48 52 PM](https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/97534ebc-b8f5-4bd2-bd77-6ddeee5baf37)
 
-### Steps
+### Exploratory Data Analysis (EDA)
 The first steps were to do exploratory data analysis on the dataset, and look for patterns between different variables. Shown below is a heatmap we used to analyze the relationship between stats. ![Screenshot 2023-11-21 at 4 07 17 PM](https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/ddab7ff2-adcb-4bfe-b2ee-f7f3073ac5c5)
+
+### Creating the Metrics
 After this, we had to decide which stats to use in our metric, and assign a weight for each one. For our first metric, we wanted to use percentages, and find a statistic of the players who are the most efficient. After making the calculations, we made it so the average player in the dataset had a 0.0 WAR, and plotted the distribution
 
 <img width="593" alt="Screenshot 2023-11-22 at 11 05 15 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/56ed5e95-a991-479c-8f2b-d5882971aa56">
 
 Compared to when the analysis was originally done on the 2021 season, there are not as many outliers, and the graph is more condensed. When we created the efficiency WAR metric, we then wanted to plot it compared to other variables to see the relationships. From this graph shown below, we can see that there is a bigger range of outcomes with the younger players, while the veterans are more consistent.
 
+### Analysis
 A second graph that we thought was important was plotting Efficiency WAR by team, and there were some interesting results. The NBA champion Nuggets were 2nd in WAR, and all of the top 6 teams made the playoffs. 3 of the 4 worst teams by record, the Hornets, Rockets, and Spurs, were in the bottom 4 in WAR as well. Our WAR metric possibly valued offense too much, as two teams with good offense but a bad defense and record (Pacers and Wizards) were top 10 in WAR. On the other end, two playoff teams that were great defensively, the Knicks and Heat, got bad ratings from our WAR metric. 
 
 <img width="572" alt="Screenshot 2023-11-22 at 10 45 14 AM" src="https://github.com/vivekdivakarla12/Applying-WAR-to-the-NBA/assets/11672096/5ebdf067-3498-405e-96ad-1331e7241bb7">
